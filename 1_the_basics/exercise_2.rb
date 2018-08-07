@@ -1,7 +1,7 @@
 def four_digits
   puts "Give a 4 digit number: "
   num = gets.to_i
-  if num / 1000 != 0
+  if num / 1000 != 0 && num / 10000 == 0
     thousands = num / 1000
     hundreds = num % 1000 / 100
     tens = num % 1000 % 100 / 10
