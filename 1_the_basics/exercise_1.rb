@@ -3,7 +3,7 @@ def name_concat
   first = gets.chomp
   puts 'What is your last name?'
   last = gets.chomp
-  puts "Hello, #{first} #{last}"
+  "Hello, #{first} #{last}"
 end
 
-name_concat
+puts name_concat
